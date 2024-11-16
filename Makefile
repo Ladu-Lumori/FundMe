@@ -14,7 +14,7 @@ install :; forge install && forge install smartcontractkit/chainlink-brownie-con
 
 test :; forge test
 
-snapshot;: forge snapshot
+snapshot:; forge snapshot
 
 format:; forge fmt
 
